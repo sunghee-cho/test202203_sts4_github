@@ -10,6 +10,8 @@ public class GithubBootApplication {
 		SpringApplication.run(GithubBootApplication.class, args);
 		System.out.println("깃헙push용도");
 		System.out.println("원격저장소 추가 라인");
+		System.out.println("소스주인 추가 라인");
+		
 	}
 
 }
