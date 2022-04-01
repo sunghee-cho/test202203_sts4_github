@@ -1,0 +1,9 @@
+1.
+alter table activities add image varchar(100);
+
+2. 15개 샘플데이터 저장 
+insert into ... ('이미지파일명');
+
+3. 뷰 (sec/mian/webapp/resources)
+<img src="resources/${dto.image}">
+
